@@ -8,18 +8,107 @@
   <title>Spotifu</title>
 </head>
 <body class="body">
-  <header class="logo">
-    <a href="/" aria-current="page">
-      <img src="images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotify">
-    </a>
-  </header>
+
+  <div class="sidebar">
+    <header class="logo">
+      <a href="/" aria-current="page">
+        <img src="images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotify">
+      </a>
+    </header>
+
+    <nav class="menu" aria-label="Principal">
+      <ul class="menu-list">
+        <li class="menuItem is-active">
+          <a href="/" class="link" aria-current="page">
+            <i class="icon-home" aria-hidden="true"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li class="menuItem">
+          <a href="#" class="link">
+            <i class="icon-search"></i>
+            <span>Buscar</span>
+          </a>
+        </li>
+        <li class="menuItem">
+          <a href="#" class="link">
+            <i class="icon-creditCard"></i>
+            <span>Premium</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="list" aria-labelledby="library-nav">
+      <h2 class="list-title" id="library-nav">Tu biblioteca</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a href="#" class="link">Creada para ti</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Escuchado recientemente</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Tus Me Gusta</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Artistas</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Podcast</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="list" aria-labelledby="playlist-nav">
+      <h2 class="list-title" id="playlist-nav">Playlist</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a href="#" class="link">Lo mejor de lo mejor</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Música para programar</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Para cantar en la ducha</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Sin parar</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Opening BSO</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Lo mejor del rock</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Indie</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Lo mejor de Bunbury</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Internacional alternativo</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Rock para Bruno</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Descubrimiento semanal</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Lista final</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+
   <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
     <i class="icon-play" aria-hidden="true"></i>
   </button>
   <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon" aria-label="Reproducir" title="Reproducir">
     <i class="icon-play" aria-hidden="true"></i>
   </button>
 

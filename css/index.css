@@ -1,9 +1,9 @@
-@import 'icons.css';
-@import 'fonts.css';
-@import 'body.css';
-@import 'link.css';
-@import 'button-icon.css';
-@import 'logo.css';
+@import './icons.css';
+@import './fonts.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './sidebar.css';
 
 :root {
   --primary: #00B050;
