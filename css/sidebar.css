@@ -1,3 +1,12 @@
 @import './logo.css';
 @import './list.css';
 @import './menu.css';
+
+.sidebar {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  background: var(--gray60);
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+}
