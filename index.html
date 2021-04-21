@@ -38,8 +38,10 @@
 <body class="body">
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate saepe maxime iusto odit. Non nam facilis dignissimos officiis ut mollitia, laboriosam eos beatae repellendus accusantium soluta, earum fugit culpa commodi?</p>
 
+
+
   <div class="playerControls">
-    <div class="playerControls-button">
+    <div class="playerControls-button" aria-label="Controles de reproducción">
       <button class="buttonIcon" aria-label="Anterior" title="Anterior">
         <i class="icon-prev" aria-hidden="true"></i>
       </button>
@@ -63,7 +65,18 @@
     </div>
   </div>
 
-
+  <div class="playerVolume">
+    <button class="player-control" aria-label="Silenciar" aria-describedby="volume-icon">
+      <i id="volume-icon" class="icon-volumeUp" role="presentation" aria-label="Volumen"></i>
+    </button>
+    <div class="playerVolume-slider">
+      <div class="slider">
+        <div class="slider-progress">
+          <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="sidebar">
     <header class="logo">
@@ -160,15 +173,6 @@
       </ul>
     </nav>
   </div>
-
-
-
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
 
 
 </body>

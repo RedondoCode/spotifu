@@ -8,6 +8,8 @@
 @import './slider.css';
 @import './player-control.css';
 @import './player-playback.css';
+@import './player-volume.css';
+@import './player.css';
 
 :root {
   --primary: #00B050;
@@ -26,4 +28,5 @@
   --buton: bold .875rem/1rem var(--baseFontFamily);
   --small: normal .75em/normal var(--baseFontFamily);
 }
+
 
