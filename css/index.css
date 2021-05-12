@@ -9,6 +9,7 @@
 @import './page.css';
 @import './layout.css';
 @import './scroll.css';
+@import './songs.css';
 
 :root {
   font-size: 14px;

@@ -1,0 +1,15 @@
+.filter {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  inline-size: fit-content;
+  font: var(--baseFont);
+  color: var(--gray10);
+  text-decoration: none;
+  transition: color .5s;
+}
+
+.filter:hover {
+  color: var(--white);
+}
+
