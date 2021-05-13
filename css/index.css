@@ -28,6 +28,7 @@
   --baseFontBold: bold .875rem/1.375rem var(--baseFontFamily);
   --buton: bold .875rem/1rem var(--baseFontFamily);
   --small: normal .75em/normal var(--baseFontFamily);
+  --subtitle2: normal .75rem/normal var(--baseFontFamily);
 }
 
 @media screen and (min-width: 768) {
@@ -38,7 +39,7 @@
 
 @media screen and (min-width: 1367px) {
   :root {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

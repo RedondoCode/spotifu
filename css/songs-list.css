@@ -1,0 +1,55 @@
+.songsList {
+  display: flex;
+}
+
+.layout-songsList {
+  flex: 1;
+}
+
+.songsList-header {
+  display: flex;
+  align-items: center;
+}
+
+.songsList-headerName {
+  font: var(--subtitle2);
+  text-transform: uppercase;
+  color: var(--gray10);
+  flex-grow: 1;
+}
+
+.songsList-headerName > i {
+  font-size: 1.125rem;
+}
+
+.songsList-headerName--play {
+  flex-basis: 44px;
+  flex-shrink: 0;
+}
+
+.songsList-headerName--like {
+  flex-basis: 38px;
+  flex-shrink: 0;
+}
+
+.songsList-headerName--title {
+  flex-basis: 323px;
+}
+
+.songsList-headerName--artist {
+  flex-basis: 272px;
+}
+
+.songsList-headerName--album {
+  flex-basis: 273px;
+}
+
+.songsList-headerName--calendar {
+  flex-basis: 90px;
+}
+
+.songsList-headerName--clock {
+  flex-basis: 47px;
+}
+
+
