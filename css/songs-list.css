@@ -9,6 +9,11 @@
 .songsList-header {
   display: flex;
   align-items: center;
+  block-size: 2.75rem;
+}
+
+.songsList-headerName > span {
+  padding-inline-start: .625rem;
 }
 
 .songsList-headerName {
