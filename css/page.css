@@ -21,3 +21,10 @@
   margin-inline-start: -1.5rem;
   margin-inline-end: -1.5rem;
 }
+
+.is-pageAlbum {
+  background: linear-gradient(
+  181.17deg
+  , rgba(47, 47, 47, 0) -35.3%, var(--gray50) 66.2%), url(./../images/imploding-the-mirage-back.png);
+      background-size: cover;
+}
