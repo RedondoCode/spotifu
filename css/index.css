@@ -10,6 +10,8 @@
 @import './layout.css';
 @import './scroll.css';
 @import './songs.css';
+@import './albumInformation.css';
+@import './button.css';
 
 :root {
   font-size: 14px;

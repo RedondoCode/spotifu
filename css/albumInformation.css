@@ -1,0 +1,25 @@
+.albumInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-block-start: 5.5rem;
+}
+
+.albumInformation-title {
+  font: var(--headLine1);
+  color: var(--white);
+  margin: 0;
+}
+
+.albumInformation-description {
+  font: var(--baseFont);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+}
+
+.albumInformation-followers {
+  text-transform: uppercase;
+}

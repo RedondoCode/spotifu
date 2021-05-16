@@ -12,7 +12,7 @@
   block-size: 2.75rem;
 }
 
-.songsList-headerName > span {
+.songsList-headerName > span, .songsList-headerName > i {
   padding-inline-start: .625rem;
 }
 

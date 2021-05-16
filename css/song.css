@@ -1,0 +1,61 @@
+.song {
+  display: flex;
+  align-items: center;
+  block-size: 2.75rem;
+  transition: .5s;
+}
+
+.song:hover {
+  background-color: rgba(255,255,255,.2);
+}
+
+.song-info {
+  font: var(--baseFont);
+  color: white;
+  flex-grow: 1;
+  padding-inline-start: .625rem;
+}
+
+.song-info--play {
+  flex-basis: 44px;
+  flex-shrink: 0;
+}
+
+.song-info--play > button > i {
+  color: var(--white);
+  font-size: .75rem;
+}
+
+.song-info--like {
+  flex-basis: 38px;
+  flex-shrink: 0;
+}
+
+.song-info--like > button > i {
+  color: var(--white);
+  font-size: 1.125rem;
+}
+
+.song-info--title {
+  flex-basis: 323px;
+}
+
+.song-info--artist {
+  flex-basis: 272px;
+  text-transform: uppercase;
+}
+
+.song-info--album {
+  flex-basis: 273px;
+}
+
+.song-info--date {
+  flex-basis: 90px;
+  flex-shrink: 0;
+  color: var(--gray10);
+}
+.song-info--time {
+  flex-basis: 47px;
+  flex-shrink: 0;
+  color: var(--gray10);
+}

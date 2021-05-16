@@ -1,5 +1,6 @@
 @import './songs-filter.css';
 @import './songs-list.css';
+@import './song.css';
 
 .songs {
   display: flex;
